@@ -1,10 +1,16 @@
+import { SocialIcon } from "react-social-icons/component";
 const Footer = () => {
   return (
-    <div>
-      <a className="footer" href="mailto:info@tarekslater.com">
-        info@tarekslater.com
-      </a>
-    </div>
+    <section className="footer">
+      <div>
+        <a href="mailto:info@tarekslater.com">info@tarekslater.com</a>
+      </div>
+      {/* <SocialIcon
+        className="footer"
+        network="github"
+        url="https://www.instagram.com/tarekslater/?hl=en"
+      /> */}
+    </section>
   );
 };
 

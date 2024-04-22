@@ -24,7 +24,7 @@ const Pictures = () => {
         {dogs.map((dog, index) => {
           return (
             <li className="grid-item" key={index}>
-              <img className="dog" src={dog} alt="pic of dog" />
+              <img className="grid-dog" src={dog} alt="pic of dog" />
             </li>
           );
         })}
