@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <section>
-      <p>
+    <section className="aboutMe">
+      <p className="tarekDescription">
         My name is Tarek, my photography has a focus on simplicity and serenity.
         My relaxed, contemplative approach, influenced by the use of medium
         format film helps you find ease in front of the camera. Each session is
@@ -17,6 +17,11 @@ const About = () => {
         </a>{" "}
         to book actor headshot sessions or to discuss other creative projects.
       </p>
+      <img
+        className="dog"
+        src="https://images.dog.ceo/breeds/setter-english/n02100735_7013.jpg"
+        alt="pic of dog"
+      />
     </section>
   );
 };

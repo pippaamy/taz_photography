@@ -47,22 +47,32 @@ a:hover {
   font-size: small;
 }
 .dog {
-  width: 30rem;
-  height: 30rem;
+  margin-right: 2rem;
+  width: 20rem;
+  height: 20rem;
 }
 .carousel {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
-  min-width: 90vw;
+  height: 100%;
+  width: 100%;
+
   overflow: visible;
 }
 .carouselDog {
   width: 100%;
   height: auto;
   max-height: 100%;
+
   object-fit: contain;
+}
+.aboutMe {
+  display: flex;
+}
+.tarekDescription {
+  font-family: "Courier New", Courier, monospace;
+  padding: 2rem;
 }
 .gallery {
   width: 100%;
